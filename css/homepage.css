@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Alex";
+    src: url("assets/AlexBrush-Regular.woff") format("woff"),
+         url("assets/AlexBrush-Regular.woff2") format("woff2");
+}
+
+.page-1 {
+    background-color: #111;
+    scroll-snap-align: start;
+}
+
+.page-1 .scroll-circles ul li:nth-child(1) {
+    background-color: #deb59180;
+    border-radius: 50%;
+}
+
+.page-2 {
+    background: linear-gradient(#2b555e, #337178);
+    scroll-snap-align: start;
+}
+
+.page-2 .scroll-circles ul li:nth-child(2) {
+    background-color: #deb59180;
+    border-radius: 50%;
+}
+
+.page-3 {
+    background: linear-gradient(#6f7899, #222e57);
+    scroll-snap-align: start;
+}
+
+.page-3 .scroll-circles ul li:nth-child(3) {
+    background-color: #deb59180;
+    border-radius: 50%;
+}
